@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Assignement 3 </title>
+    <link rel='stylesheet' href='style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1 id="title">The Movie Quizz</h1>
+    <div id="movieData"> </div>
+
+    <div id="form" class="form">
+        <form>
+            <!-- Creating some text boxes to capture the given director or an actor of the movie-->
+            <label for="formValue">Give the director or one of the actors of the movie:</label><br>
+            <input type="search" id="formValue"><br>
+            <button class="btn btn-default" id="formSubmit" onclick="verifyFormValue(); return false;">
+                Submit</button><br>
+        </form>
+    </div>
+    <div id="guessForm">
+        <form>
+            <div id="displayResult" class="form"></div>
+            <div id="img_form2" class="displayResultQuizz"></div>
+            <div id="form2" class="displayResultQuizz"></div>
+            <div id="displayResult2" class="displayResultQuizz"></div>
+        </form>
+    </div>
+    <div id="reload" class="displayResultQuizz"></div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

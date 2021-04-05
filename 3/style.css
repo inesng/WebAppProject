@@ -1,0 +1,40 @@
+#title{
+    text-align: center;
+    font-size: xx-large;
+}
+  
+body{
+    background-color: rgb(39, 50, 53);
+    color : whitesmoke;
+    font-family: "Helvetica", sans-serif;
+}
+
+img{
+    margin-left: auto;
+    margin-right: 20px;
+    float:left;
+    max-width: 15%;
+	height: auto;
+  }
+
+#movieData{
+    float:right;
+    text-align: justify;
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 255px;
+}
+
+.form{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: large;
+    text-align: center;
+}
+
+.displayResultQuizz{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: large;
+    text-align: left;
+}
